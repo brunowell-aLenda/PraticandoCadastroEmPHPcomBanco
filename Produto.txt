@@ -1,0 +1,11 @@
+CREATE DATABASE ESTOQUE;
+
+CREATE TABLE produto
+(codigo INT(13) PRIMARY KEY,
+   nome VARCHAR(45) NOT NULL,
+   descricao TEXT NOT NULL,
+   preco DOUBLE(10,2) NOT NULL,
+   quantidade INT NOT NULL,
+   datacadastro DATE NOT NULL
+);
+
